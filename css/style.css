@@ -1,0 +1,19 @@
+header{display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+ img{width: 10%;}   
+
+ .mafer{width: 100%;}
+
+ .mision{display: flex;
+        width: 100%;}
+
+.mision img{width: 80%;}
+
+.medio{width: 50%;}
+
+footer{display: flex;
+gap: 20%;}
