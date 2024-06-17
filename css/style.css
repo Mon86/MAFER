@@ -17,3 +17,170 @@ header{display: flex;
 
 footer{display: flex;
 gap: 20%;}
+
+
+.banner{text-align: center;
+width: 100%;}
+
+
+/* CHAT GPT */
+.intro-section, .services-section {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 800px;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .intro-section h2, .services-section h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .intro-section p {
+        text-align: center;
+        color: #555;
+    }
+
+    .service {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
+
+    .service-icon {
+        font-size: 2rem;
+        margin-right: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .service-icon:hover {
+        transform: rotateY(180deg);
+    }
+
+    .service-description {
+        color: #555;
+    }
+
+    @media (max-width: 600px) {
+        .service {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .service-icon {
+            margin-bottom: 10px;
+        }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+
+    .section {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin-bottom: 20px;
+        text-align: center; /* Centrar contenido horizontalmente */
+    }
+
+    .section h2 {
+        color: #333333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .section p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #666666;
+    }
+
+    .highlight {
+        background-color: #4CAF50;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .whatsapp-section {
+        background-color: #25D366; /* Fondo verde de WhatsApp */
+        color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        padding: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .whatsapp-section h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .whatsapp-section p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .whatsapp-highlight {
+        background-color: #128C7E; /* Fondo oscuro de WhatsApp */
+        color: #ffffff;
+        padding: 15px 30px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .whatsapp-number {
+        background-color: #075E54; /* Fondo más oscuro de WhatsApp */
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+/* Agrega esta sección a tu archivo style.css o dentro de una etiqueta <style> en tu archivo HTML */
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+footer .social-icon {
+    display: inline-block;
+    transition: transform 0.6s;
+}
+
+footer .social-icon:hover {
+    animation: spin 0.6s linear;
+}
+
+
+.img-fluid{width: 100%;}
+
+body{ background: rgb(212,97,104);
+    background: linear-gradient(90deg, rgba(212,97,104,1) 0%, rgba(255,255,255,1) 35%, rgba(100,45,115,1) 100%); }
